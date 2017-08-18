@@ -1,0 +1,103 @@
+.alta {
+  width: 250px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border: 1px solid;
+}
+
+.ok-wrapper {
+  width: 350px;
+  height: 400px;
+  position: relative;
+  background: #f9f9f9;
+  left: 30%;
+  top: 70px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 4px 15px 0px rgba(0, 0, 0, 0.43);
+}
+
+.ok-yukari {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: -30px;
+}
+
+.ok-circle {
+  position: absolute;
+  top: 100px;
+  left: 75px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #3c9043;
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.46);
+}
+
+.ok-circle-ic {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.46);
+}
+
+.ok {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    width: 30px;
+    height: 75px;
+    background: #7dde43;
+    -ms-transform: rotate(-43deg);
+    -webkit-transform: rotate(-43deg);
+    transform: rotate(-43deg);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.46); 
+    animation-name: ok-ani1;
+    animation-duration: 1s;
+}
+
+.ok-yan {
+    position: absolute;
+    top: -30px;
+    left: 114px;
+    width: 30px;
+    height: 185px;
+    background: #7dde43;
+    -ms-transform: rotate(47deg);
+    -webkit-transform: rotate(47deg);
+    transform: rotate(47deg);
+    box-shadow: 5px -4px 9px 0px rgba(0, 0, 0, 0.46);
+    animation-name: ok-ani;
+    animation-duration: 1s;
+}
+
+.checked {
+  position: relative;
+  width: 100%;
+  height: auto;  
+  text-align: center;
+  top: 155px;
+}
+
+.checked p {
+    color: #fff;
+    text-shadow: 5px 2px 10px rgba(0, 0, 0, 0.60);
+    font-size: 50px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+/* ANİMASYON CSS */
+
+@keyframes ok-ani {
+    0%  {left:0;}
+}
+
+@keyframes ok-ani1 {
+    0%  {top:0;}
+}
