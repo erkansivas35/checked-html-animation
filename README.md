@@ -1,4 +1,4 @@
-# checked-html-animation
+## checked-html-animation
 
 Onay işlemlerinde kullanılabilcek html checked'dır.
 
